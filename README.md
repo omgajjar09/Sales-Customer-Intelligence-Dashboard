@@ -68,21 +68,6 @@ The project uses the following tables:
 
 # ⭐ Star Schema Relationship
 
-```text
-Region_Dim
-     |
-     ▼
-Customer_Dim
-     |
-     ▼
-Sales_Fact ◄──── Returns_Fact
-     ▲
-     |
- ┌───┴────┐
- ▼        ▼
-Date_Dim Product_Dim
-```
-
 Relationship Type:
 
 ```text
